@@ -19,7 +19,7 @@ import { GiMeshBall } from "react-icons/gi";
 import moment from "moment";
 import isMobile from "ismobilejs";
 import "./App.css";
-require("babel-polyfill");
+// require("babel-polyfill");
 
 const userAgent = window.navigator.userAgent;
 const ISMOBILE = isMobile(userAgent).any;

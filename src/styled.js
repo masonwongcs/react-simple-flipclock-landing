@@ -70,7 +70,7 @@ export const ViewOnNpm = styled.a`
 `;
 
 export const Code = styled.code`
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   color: #fff;
   padding: ${ISMOBILE ? "1rem" : "1rem 2rem"};
@@ -108,6 +108,9 @@ export const Clock = styled.div`
     border-radius: 2px;
   }
   @keyframes rotate {
+    from {
+      transform: translateY(-50%) rotate(0deg);
+    }
     to {
       transform: translateY(-50%) rotate(360deg);
     }
