@@ -102,6 +102,10 @@ const App = () => {
           <FaGithub />
           masonwongcs
         </a>
+        <a target="_blank" href="https://github.com/kevinkam">
+          <FaGithub />
+          kevinkam
+        </a>
       </Footer>
       {/*<Carbon src="https://carbon.now.sh/embed?bg=rgba(171%2C%20184%2C%20195%2C%201)&t=seti&wt=sharp&l=jsx&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=133%25&si=false&es=2x&wm=false&code=import%2520*%2520as%2520React%2520from%2520%2522react%2522%253B%250Aimport%2520ReactDOM%2520from%2520%2522react-dom%2522%253B%250Aimport%2520Flipclock%2520from%2520%2522react-simple-marquee%2522%253B%250A%250Aclass%2520App%2520extends%2520React.Component%2520%257B%250A%2520%2520render()%2520%257B%250A%2520%2520%2520%2520return%2520(%250A%2520%2520%2520%2520%2520%2520%253CFlipclock%250A%2520%2520%2520%2520%2520%2520%2520%2520speed%253D%257B2%257D%2520%252F%252F%2520Speed%2520of%2520the%2520marquee%2520(Optional)%250A%2520%2520%2520%2520%2520%2520%2520%2520style%253D%257B%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520height%253A%252030%2520%252F%252F%2520Your%2520own%2520styling%2520(Optional)%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%257D%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Your%2520text%2520here%250A%2520%2520%2520%2520%2520%2520%253C%252FFlipclock%253E%250A%2520%2520%2520%2520)%253B%250A%2520%2520%257D%250A%257D%250A%250AReactDOM.render(%253CApp%2520%252F%253E%252C%2520document.getElementById(%2522root%2522))%253B%250A"></Carbon>*/}
     </div>
