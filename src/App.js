@@ -68,7 +68,7 @@ const App = () => {
       <ButtonWrapper>
         <ViewOnGithub
           target="_blank"
-          href="https://github.com/masonwongcs/react-simple-flipclick"
+          href="https://github.com/masonwongcs/react-simple-flipclock"
         >
           <FaGithub />
           View on GitHub
