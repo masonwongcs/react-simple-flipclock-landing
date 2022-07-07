@@ -9,7 +9,7 @@
     "react-scripts": "3.4.1",
     "axios": "^0.19.2",
     "ismobilejs": "^1.0.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "npm-registry-client": "^8.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
