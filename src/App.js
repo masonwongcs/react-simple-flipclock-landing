@@ -12,7 +12,7 @@ import {
   ClockWrapper,
   Browser,
   Carbon,
-  Footer
+  Footer,
 } from "./styled";
 import { FaGithub, FaNpm } from "react-icons/fa";
 import { GiMeshBall } from "react-icons/gi";
@@ -26,11 +26,13 @@ const ISMOBILE = isMobile(userAgent).any;
 const API_ENDPOINT =
   "https://raw.githubusercontent.com/masonwongcs/react-simple-flipclock/master/package.json";
 
+const nextYear = new Date().getFullYear() + 1;
+
 const App = () => {
   const [version, setVersion] = useState("1.0.0");
   const [difference, setDifference] = useState(1234);
   async function getVersion() {
-    await axios.get(API_ENDPOINT).then(response => {
+    await axios.get(API_ENDPOINT).then((response) => {
       const { data } = response;
       const currentVersion = data.version;
       setVersion(currentVersion);
@@ -38,9 +40,7 @@ const App = () => {
   }
 
   function checkDifference() {
-    const nextYear = moment()
-      .add(1, "year")
-      .get("year");
+    const nextYear = moment().add(1, "year").get("year");
     const current = moment();
     const next = moment(`01/01/${nextYear}`, "dd/mm/YYYY");
     const diff = next.diff(current, "seconds");
@@ -90,10 +90,10 @@ const App = () => {
           style={{
             margin: 0,
             textAlign: "center",
-            color: "rgba(255,255,255,0.6)"
+            color: "rgba(255,255,255,0.6)",
           }}
         >
-          Counting down to 2021
+          Counting down to {nextYear}
         </h4>
       </main>
       <Footer>
